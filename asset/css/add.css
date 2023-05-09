@@ -1,0 +1,63 @@
+
+        /* Basic page layout styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #1c0202;
+            color: #fff;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+        }
+        nav ul {
+            background-color: #444;
+            color: #fff;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav li {
+            
+            display: inline-block;
+            margin-right: 10px;
+        }
+        nav li a {
+            color: #f0e5e5;
+            text-decoration: none;
+            padding: 5px;
+        }
+        nav li a:hover {
+            background-color: #1f0505;
+        }
+        form {
+            background-color: #30649b;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table td, table th {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #dddddd;
+        }
+        table th {
+            background-color: #0c656b;
+        }
+        footer {
+            background-color: #06335d;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    
